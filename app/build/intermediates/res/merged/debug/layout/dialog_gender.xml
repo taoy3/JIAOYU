@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/bg_dialog"
+              android:clipChildren="true"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_male"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40"
+        android:gravity="center_vertical"
+        android:background="@null"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20"
+        >
+
+        <TextView
+            android:id="@+id/textView_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/male"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            android:id="@+id/imageView_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/radiobutton_off_background"
+            />
+    </RelativeLayout>
+    <View style="@style/underline_gray"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_female"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20"
+        >
+
+        <TextView
+            android:id="@+id/textView_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/female"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            android:id="@+id/imageView_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/radiobutton_off_background"
+            />
+    </RelativeLayout>
+
+    <View style="@style/underline_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_left"
+            android:gravity="center"
+            android:padding="@dimen/padding_10"
+            android:text="@string/cancel"
+            android:textColor="@color/normal_text"/>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/underline_gray"/>
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_right"
+            android:gravity="center"
+            android:padding="@dimen/padding_10"
+            android:text="@string/confirm"
+            android:textColor="@color/normal_text"/>
+    </LinearLayout>
+
+</LinearLayout>

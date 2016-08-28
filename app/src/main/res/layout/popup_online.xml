@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="115dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/pop_bg"
+              android:gravity="center">
+
+<TextView
+    android:id="@+id/pop_item_search"
+    android:layout_marginTop="12dp"
+    android:paddingTop="11dp"
+    android:paddingBottom="13dp"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:text="搜索"
+    android:clickable="true"
+    android:textColor="#99000000"
+    android:background="@drawable/popup_item_top_selector"
+    android:layout_gravity="center_horizontal"
+    android:textSize="14sp"/>
+
+<ImageView
+
+    android:layout_width="match_parent"
+    android:layout_height="1px"
+    android:background="#ccc"/>
+
+<TextView
+    android:id="@+id/btn_pop"
+    android:paddingTop="13dp"
+    android:paddingBottom="13dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:clickable="true"
+    android:background="@drawable/popup_item_selector"
+    android:text="需求反馈"
+
+    android:textColor="#99000000"
+    android:textSize="14sp"/>
+
+</LinearLayout>

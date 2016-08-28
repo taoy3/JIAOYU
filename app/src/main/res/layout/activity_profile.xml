@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_rec_bg"
+    android:orientation="vertical"
+    tools:context="com.cnst.wisdom.ui.activity.ProfileActivity">
+
+    <include
+        layout="@layout/layout_head"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_childinfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_childinfo"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="幼儿信息"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_growthRecord"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_growthrecord"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="幼儿在园成长记录"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+    <View
+        style="@style/underline_gray"
+        android:layout_marginTop="@dimen/margin_10"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_profileManage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_profilemanage"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="档案管理"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+    <View
+        style="@style/underline_gray"
+        android:layout_marginTop="@dimen/margin_10"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_smartcardModify"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_smartcardmodify"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="智能卡录入修改"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_orderSituation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_ordersituation"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="课程订购情况"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+</LinearLayout>

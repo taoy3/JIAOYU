@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Jiaoyu.iml" filepath="$PROJECT_DIR$/Jiaoyu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db/db.iml" filepath="$PROJECT_DIR$/db/db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freight/freight.iml" filepath="$PROJECT_DIR$/freight/freight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/youkuPlayerOpenSDK/youkuPlayerOpenSDK.iml" filepath="$PROJECT_DIR$/youkuPlayerOpenSDK/youkuPlayerOpenSDK.iml" />
+    </modules>
+  </component>
+</project>

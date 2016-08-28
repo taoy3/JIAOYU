@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="@color/normal_text"
+        android:textSize="@dimen/text_16"
+        android:layout_gravity="center"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/month_day"
+        android:text=""
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/text_9"
+        android:textColor="#666"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/margin_10"/>
+    <View
+        android:id="@+id/date_line"
+        style="@style/underline_gray"/>
+    </LinearLayout>

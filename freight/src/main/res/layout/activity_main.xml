@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/main_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_main"
+        android:padding="@dimen/padding_10">
+
+        <ImageView
+            android:id="@+id/main_slide"
+            android:layout_width="@dimen/width_40"
+            android:layout_height="@dimen/height_40"
+            android:clickable="true"
+            android:src="@mipmap/my" />
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_40"
+            android:layout_toLeftOf="@+id/main_order"
+            android:layout_toRightOf="@+id/main_slide"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_20" />
+
+        <TextView
+            android:id="@+id/main_order"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_40"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/order"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_20" />
+
+        <TextView
+            android:id="@+id/start_searchView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_40"
+            android:layout_below="@+id/main_slide"
+            android:layout_margin="@dimen/padding_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@drawable/search_edit_shape"
+            android:clickable="true"
+            android:drawableLeft="@mipmap/search_icon"
+            android:drawablePadding="@dimen/padding_20"
+            android:gravity="center"
+            android:hint="@string/search_order_tip"
+            android:paddingRight="@dimen/padding_20"
+            android:textSize="@dimen/text_16" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/start_searchView"
+            android:layout_marginTop="@dimen/margin_30"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/unDo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawableTop="@mipmap/pending"
+                android:gravity="center"
+                android:text="@string/un_do"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/vertical_line" />
+
+            <TextView
+                android:id="@+id/fail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawableTop="@mipmap/processing"
+                android:gravity="center"
+                android:text="@string/refuse"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/vertical_line" />
+
+            <TextView
+                android:id="@+id/pass"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawableTop="@mipmap/completed"
+                android:gravity="center"
+                android:text="@string/pass"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_searchView"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_20"
+        android:paddingRight="@dimen/margin_20"
+        android:paddingTop="@dimen/margin_30">
+
+        <TextView
+            android:id="@+id/main_voyage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="@dimen/padding_5"
+            android:drawableTop="@mipmap/voyage"
+            android:gravity="center"
+            android:text="@string/voyage" />
+
+        <TextView
+            android:id="@+id/main_freight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="@dimen/padding_5"
+            android:drawableTop="@mipmap/freight"
+            android:gravity="center"
+            android:text="@string/freight" />
+
+        <TextView
+            android:id="@+id/main_enquiry"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="@dimen/padding_5"
+            android:drawableTop="@mipmap/enquiry"
+            android:gravity="center"
+            android:text="@string/enquiry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/start_searchView"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/margin_30">
+
+        <LinearLayout
+            android:id="@+id/online_serve"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_1"
+            android:layout_marginRight="@dimen/margin_1"
+            android:layout_marginTop="@dimen/margin_1"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_20">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_service"
+                android:textSize="@dimen/text_20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_service_detail"
+                android:textSize="@dimen/text_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_1"
+            android:layout_marginTop="@dimen/margin_1"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_20"
+            android:text="@string/freight">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_hope"
+                android:textSize="@dimen/text_20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_hope_detail"
+                android:textSize="@dimen/text_14" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

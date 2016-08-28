@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:clickable="true"
+        android:id="@+id/add"
+        android:layout_margin="@dimen/margin_15"
+        android:background="@drawable/bg_add"
+        android:text="+"
+        android:textSize="72dp"
+        android:textColor="@color/tip_text"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+</FrameLayout>

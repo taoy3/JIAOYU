@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cnst.wisdom.ui.activity.AccountActivity">
+
+    <include
+        layout="@layout/layout_head"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/account_background"
+        android:gravity="center_vertical"
+        android:paddingBottom="0dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+
+        <com.cnst.wisdom.ui.view.CircleImageView
+            android:id="@+id/imageView_userhead"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="1dp"
+            app:civ_fill_color="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/textView_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView_userhead"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/marging_8"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16"/>
+
+        <ImageView
+            android:id="@+id/imageView_gender"
+            android:layout_width="@dimen/width_10"
+            android:layout_height="@dimen/text_16"
+            android:layout_alignTop="@id/textView_username"
+            android:layout_marginLeft="@dimen/padding_5"
+            android:layout_toRightOf="@id/textView_username"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/textView_classpost"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_username"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_5"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/text_12"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_userinfo"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/userinfo"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_download"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_download"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/downloadmanage"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_setting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_setting"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/setting"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+</LinearLayout>

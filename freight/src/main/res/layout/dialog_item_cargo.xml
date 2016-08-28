@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/input_edit_frame">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10"
+        android:textColor="@color/white"
+        android:background="@color/fuchsia"
+        android:gravity="center"
+        android:text="编辑费用"/>
+    <ListView
+        android:id="@+id/item_list_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10"/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/item_cargo_confirm"
+        android:layout_width="@dimen/width_50"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:padding="@dimen/padding_5"
+        android:layout_margin="@dimen/margin_10"
+        android:background="@drawable/background_dark_green"
+        android:text="@string/confirm"/>
+</LinearLayout>

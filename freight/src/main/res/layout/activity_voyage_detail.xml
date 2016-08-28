@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.kunxin.mobile.android.kxscs.activity.VoyageDetailActivity">
+
+    <include
+        layout="@layout/title_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_10">
+
+        <ImageView
+            android:layout_width="@dimen/width_80"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/margin_10"
+            android:scaleType="fitXY"
+            android:src="@mipmap/company_default"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_80"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/company_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:text="NYKCOS"
+                    android:textColor="@color/red"/>
+
+                <TextView
+                    android:id="@+id/start_port_zh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="盐田/01E"
+                    android:textColor="@color/red"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/start_port"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="YANTIAN"
+                    android:textSize="@dimen/text_10"/>
+
+                <TextView
+                    android:id="@+id/cls"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="CLS:9/8"
+                    android:textSize="@dimen/text_10"/>
+
+                <TextView
+                    android:id="@+id/etd"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="ETD:10/8"
+                    android:textSize="@dimen/text_10"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/dest_port"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="NEWYORK"
+                    android:textSize="@dimen/text_10"/>
+
+                <TextView
+                    android:id="@+id/eta"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="ETA:15/10"
+                    android:textSize="@dimen/text_10"/>
+
+                <TextView
+                    android:id="@+id/tt"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="T/T:53D"
+                    android:textSize="@dimen/text_10"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/port_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:divider="@null"/>
+</LinearLayout>

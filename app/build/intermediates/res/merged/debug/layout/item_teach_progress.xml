@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/height_56"
+              android:orientation="vertical"
+              android:gravity="center">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="@dimen/padding_10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/teach_sel_item1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_10"
+                android:textSize="@dimen/text_14"
+                android:textColor="@color/tip_text"
+                android:text="小一班"/>
+
+            <TextView
+                android:id="@+id/teach_sel_item2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_10"
+                android:textSize="@dimen/text_14"
+                android:textColor="@color/tip_text"
+                android:text="逻辑数学"/>
+
+            <TextView
+                android:id="@+id/teach_sel_item3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_10"
+                android:textColor="@color/tip_text"
+                android:textSize="@dimen/text_14"
+                android:text="第一期"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/teach_progress_name"
+            android:layout_marginTop="@dimen/margin_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="1、颜色配对"
+            android:textSize="@dimen/text_14"
+            android:textColor="@color/normal_text"/>
+    </LinearLayout>
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="@dimen/text_14"
+        android:text="@string/complete"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/confirm_text_selector"
+        android:id="@+id/teach_progress_state"
+        android:layout_width="@dimen/width_60"
+        android:layout_marginRight="15dp"
+        android:layout_height="@dimen/height_30"/>
+    </LinearLayout>
+</LinearLayout>

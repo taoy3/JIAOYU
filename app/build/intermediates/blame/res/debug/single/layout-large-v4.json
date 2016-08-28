@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout-large-v4/activity_attendance.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout-large/activity_attendance.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout-large-v4/item_list_recommend.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout-large/item_list_recommend.xml"
+    }
+]

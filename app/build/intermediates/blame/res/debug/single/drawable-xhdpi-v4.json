@@ -1,0 +1,414 @@
+[
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_calendar.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/tab_calendar.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/govaffairs.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/govaffairs.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/resizeapi.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/resizeapi.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/govaffairs_press.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/govaffairs_press.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/down.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/down.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plugin_ad_gosmall_tudou.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/drawable-xhdpi-v4/plugin_ad_gosmall_tudou.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_childhobby.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_childhobby.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/newscenter.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/newscenter.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/popbg.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/popbg.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/applogo.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/applogo.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_growthrecord.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_growthrecord.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/message.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/message.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_today.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/tab_today.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_ordersituation.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_ordersituation.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_temp.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/ic_temp.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_setting.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_setting.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tudou_details_big_play_icon.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/drawable-xhdpi-v4/tudou_details_big_play_icon.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plugin_ad_gosmall_youku.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/drawable-xhdpi-v4/plugin_ad_gosmall_youku.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/back.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/back.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/head_submit_action.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/head_submit_action.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_ab_back_holo_dark_am.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/ic_ab_back_holo_dark_am.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/user.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/teach_cycle.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/teach_cycle.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_profilemanage.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_profilemanage.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/newscenter_press.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/newscenter_press.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_userinfo.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_userinfo.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_logout.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_logout.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_childinfo.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_childinfo.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_download.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_download.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_yest.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/tab_yest.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/subject.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/subject.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_smartcardmodify.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_smartcardmodify.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plugin_ad_gofull_tudou.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/drawable-xhdpi-v4/plugin_ad_gofull_tudou.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plugin_ad_gofull_youku.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/drawable-xhdpi-v4/plugin_ad_gofull_youku.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/teack_bg.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/teack_bg.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/more.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/more.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/add.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/add.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/password.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/password.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plugin_ad_more_youku.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/drawable-xhdpi-v4/plugin_ad_more_youku.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_press.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/home_press.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/teach_progress.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/teach_progress.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trumpet.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/trumpet.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/smartservice.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/smartservice.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_liferecord.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_liferecord.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/account_background.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/account_background.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/drawable-xhdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/classservice.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/classservice.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mod_plan.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/mod_plan.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/smartservice_press.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/smartservice_press.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/classservice_press.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/classservice_press.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/un_complete.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/un_complete.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/home.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/periods.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/periods.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_modifypassword.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_modifypassword.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/imgbg.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/imgbg.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nextarrow.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/nextarrow.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/teach_subject.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/teach_subject.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_childprecaution.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/btn_childprecaution.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/head_search_action.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/head_search_action.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/pop_bg.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/drawable-xhdpi/pop_bg.png"
+    }
+]

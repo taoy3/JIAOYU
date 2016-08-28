@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/red">
+    <RelativeLayout
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="@dimen/padding_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mark"/>
+        <TextView
+            android:id="@+id/cargo_confirm"
+            android:clickable="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/padding_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/remark_edit"
+        android:gravity="top"
+        android:hint="点击开始编辑"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_180"
+        android:background="@color/white"/>
+
+</LinearLayout>

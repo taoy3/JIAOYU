@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:slideswitch="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cnst.wisdom.ui.activity.MedicineTipDetailAt">
+
+    <include layout="@layout/layout_head" />
+
+    <TextView
+        android:id="@+id/medicine_detail_clazz_label"
+        android:layout_width="@dimen/width_100"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_58"
+        android:text="@string/atten_class"
+        android:textColor="@color/normal_text" />
+
+    <TextView
+        android:id="@+id/medicine_detail_clazz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/medicine_detail_clazz_label"
+        android:layout_toRightOf="@id/medicine_detail_clazz_label"
+        android:text="小一班"
+        android:textColor="@color/normal_text" />
+
+    <View
+        android:id="@+id/line1"
+        style="@style/underline_gray"
+        android:layout_below="@id/medicine_detail_clazz_label"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10" />
+
+    <TextView
+        android:id="@+id/medicine_detail_student_label"
+        android:layout_width="@dimen/width_100"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/medicine_detail_clazz_label"
+        android:layout_below="@id/line1"
+        android:text="服药人"
+        android:textColor="@color/normal_text" />
+
+    <TextView
+        android:id="@+id/medicine_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/medicine_detail_clazz"
+        android:layout_below="@id/line1"
+        android:layout_toRightOf="@id/medicine_detail_student_label"
+        android:text="林真心"
+        android:textColor="@color/normal_text" />
+
+    <View
+        android:id="@+id/line2"
+        style="@style/underline_gray"
+        android:layout_below="@id/medicine_detail_student_label"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10" />
+
+    <TextView
+        android:id="@+id/medicine_detail_tip_label"
+        android:layout_width="@dimen/width_100"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/medicine_detail_clazz_label"
+        android:layout_below="@id/line2"
+        android:text="药品"
+        android:textColor="@color/normal_text" />
+
+    <TextView
+        android:id="@+id/medicine_detail_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/medicine_detail_clazz"
+        android:layout_below="@id/line2"
+        android:layout_toRightOf="@+id/medicine_detail_tip_label"
+        android:text="阿司匹林、退烧药（改成小包）"
+        android:textColor="@color/normal_text" />
+
+    <View
+        android:id="@+id/line3"
+        style="@style/underline_gray"
+        android:layout_below="@+id/medicine_detail_tip_label"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10" />
+
+    <TextView
+        android:id="@+id/medicine_detail_times_label"
+        android:layout_width="@dimen/width_100"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/medicine_detail_clazz_label"
+        android:layout_below="@id/line3"
+        android:text="剂量"
+        android:textColor="@color/normal_text" />
+
+    <TextView
+        android:id="@+id/medicine_detail_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/medicine_detail_clazz"
+        android:layout_below="@id/line3"
+        android:layout_toRightOf="@id/medicine_detail_times_label"
+        android:text="1小包/次"
+        android:textColor="@color/normal_text" />
+
+    <View
+        android:id="@+id/line4"
+        style="@style/underline_gray"
+        android:layout_below="@id/medicine_detail_times_label"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10" />
+
+    <TextView
+        android:id="@+id/medicine_detail_time_label"
+        android:layout_width="@dimen/width_100"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/medicine_detail_clazz_label"
+        android:layout_below="@id/line4"
+        android:text="今天服药时间"
+        android:textColor="@color/normal_text" />
+
+    <TextView
+        android:id="@+id/medicine_detail_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/medicine_detail_clazz"
+        android:layout_below="@id/line4"
+        android:layout_toRightOf="@+id/medicine_detail_time_label"
+        android:text="12：30 17：30"
+        android:textColor="@color/normal_text" />
+
+    <View
+        android:id="@+id/line5"
+        style="@style/underline_gray"
+        android:layout_below="@id/medicine_detail_time_label"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10" />
+
+    <LinearLayout
+        android:id="@+id/medicine_detail_this_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/medicine_detail_clazz_label"
+        android:layout_below="@id/line5">
+
+        <TextView
+            android:layout_width="@dimen/width_100"
+            android:layout_height="match_parent"
+
+            android:text="本次服药时间"
+            android:textColor="@color/normal_text" />
+
+        <TextView
+            android:id="@+id/medicine_detail_this"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@id/medicine_detail_clazz"
+            android:layout_below="@id/line5"
+            android:layout_toRightOf="@+id/medicine_detail_this_label"
+            android:layout_weight="1"
+            android:text="12：30"
+            android:textColor="@color/normal_text" />
+
+        <com.cnst.wisdom.ui.view.SwitchButton
+            android:id="@+id/medicine_detail_state"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/line5"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/margin_10"
+            slideswitch:isOpen="false"
+            slideswitch:shape="circle"
+            slideswitch:themeColor="@color/colorPrimary" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line6"
+        style="@style/underline_gray"
+        android:layout_below="@+id/medicine_detail_this_label"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line6">
+
+        <TextView
+            android:id="@+id/medicine_detail_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_20"
+            android:background="@drawable/bg_button_green"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/padding_10"
+            android:text="回复家长"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/medicine_detail_answer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/teacher_reply"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_30"
+                android:background="@color/onClick"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_10"
+                android:text="教师回复"
+                android:textColor="@color/normal_text" />
+
+            <com.cnst.wisdom.ui.view.CircleImageView
+                android:id="@+id/imageView_userhead"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_below="@id/teacher_reply"
+                android:layout_margin="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_30"
+                android:src="@drawable/ic_temp"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="1dp"
+                app:civ_fill_color="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageView_userhead"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_toRightOf="@id/imageView_userhead"
+                android:text="林真心"
+                android:textColor="@color/normal_text"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView_userhead"
+                android:layout_alignLeft="@+id/tv_name"
+                android:text="今天16:30"
+                android:paddingTop="@dimen/padding_10"
+                android:textColor="@color/tip_text"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/medicine_detail_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/tv_date"
+                android:text="删除"
+                android:background="@null"
+                android:minHeight="0dp"
+                android:padding="@dimen/padding_10"
+                android:textColor="@color/red"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_massage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/imageView_userhead"
+                android:layout_below="@id/imageView_userhead"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="林真心已经吃药。"
+                android:textColor="@color/normal_text"
+                android:textSize="16sp" />
+
+            <GridView
+                android:layout_below="@id/tv_massage"
+                android:id="@+id/medicine_detail_grid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

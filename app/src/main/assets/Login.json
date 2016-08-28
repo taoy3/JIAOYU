@@ -1,0 +1,13 @@
+{
+  "data": {
+    "headImgUrl": "head.jpg",
+    "stationCode": "",
+    "username": "4555",
+    "school": "河西幼儿园",
+    "name": "汪",
+    "userId": "40288bd75317ac86015317c3b2a30001"
+  },
+  "code": 200,
+  "sessionId": "404EF49AAF160D2F145CC6BC42AD6470",
+  "msg": "success"
+}

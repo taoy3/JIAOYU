@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cnst.wisdom"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- 优酷播放 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <!-- uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" / -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/> -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name="com.cnst.wisdom.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- &lt;!&ndash; 渠道 &ndash;&gt; -->
+        <!-- <meta-data -->
+        <!-- android:name="UMENG_CHANNEL" -->
+        <!-- android:value="${UMENG_CHANNEL_VALUE}"/> -->
+
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.GuidanceDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.LearnDetail"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.OnlineLearn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.Material"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.PictureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.Attendance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.HealthManage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.HealthDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.LoginActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.Feedback"
+            android:screenOrientation="portrait" />
+
+        <!-- 教学计划相关界面 -->
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.TeachPlan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.TeachPlanProgress"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.TeachPlanModList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.TeachPlanCreate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.TeachPlanModify"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.DownloadManager"
+            android:screenOrientation="portrait" />
+
+        <!-- 以下两个为下载时需要的添加的Service -->
+        <service
+            android:name="com.youku.service.download.DownloadService"
+            android:label="Youku Download Service"
+            android:process=":download" >
+
+            <!-- <intent-filter android:priority="1000" > -->
+            <!-- </intent-filter> -->
+        </service>
+        <service
+            android:name="com.youku.service.acc.AcceleraterService"
+            android:process=":accelerater" >
+
+            <!-- <intent-filter android:priority="1000" > -->
+            <!-- </intent-filter> -->
+        </service>
+
+        <!-- client_id及client_secret配置  这里需要切换为自己的id和secret -->
+        <meta-data
+            android:name="client_id"
+            android:value="2f53e8a555e5003f" />
+        <meta-data
+            android:name="client_secret"
+            android:value="d6781bbf609fc8b9f255395546f25e40" />
+
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.Guidance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.MaterialSearch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.AccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.ModifyPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.AvatarPickingActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.cnst.wisdom.ui.activity.UserinfoActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.ParentsTip" />
+        <activity android:name="com.cnst.wisdom.ui.activity.LeaveManageAt" />
+        <activity android:name="com.cnst.wisdom.ui.activity.MedicineTipAt" />
+        <activity android:name="com.cnst.wisdom.ui.activity.OtherTipAt" />
+        <activity android:name="com.cnst.wisdom.ui.activity.MedicineTipDetailAt" />
+        android:screenOrientation="portrait" />
+        <activity android:name="com.cnst.wisdom.ui.activity.ProfileActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.ChildinfoActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.PublishDynamicFmActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.ReplyParentsActivity" />
+        android:screenOrientation="portrait"/>
+        <activity android:name="com.cnst.wisdom.ui.activity.GrowthRecordActivity" />
+        <activity android:name="com.cnst.wisdom.logic.ImgsActivity" />
+        <activity android:name="com.cnst.wisdom.logic.ImgFileListActivity" />
+        <activity android:name="com.cnst.wisdom.base.BaseNetActivity" />
+        <activity android:name="com.cnst.wisdom.base.BaseWebActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.SelActivity" />
+    </application>
+
+</manifest>

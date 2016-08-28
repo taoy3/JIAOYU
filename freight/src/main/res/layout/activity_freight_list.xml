@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_layout" />
+
+    <LinearLayout
+        android:id="@+id/start_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_layout"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/width_40"
+            android:layout_height="@dimen/height_40"
+            android:layout_margin="@dimen/margin_5"
+            android:background="@drawable/background_light_green"
+            android:gravity="center"
+            android:padding="@dimen/padding_5"
+            android:text="@string/since"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_20" />
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/text_20" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/start_line"
+        style="@style/line"
+        android:layout_below="@+id/start_layout" />
+    <LinearLayout
+        android:id="@+id/dest_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_line"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/width_40"
+            android:layout_height="@dimen/height_40"
+            android:layout_margin="@dimen/margin_5"
+            android:background="@drawable/background_dark_green"
+            android:gravity="center"
+            android:padding="@dimen/padding_5"
+            android:text="@string/dest"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_20" />
+
+        <TextView
+            android:id="@+id/dest"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/text_20" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_below="@+id/dest_layout"
+        android:id="@+id/select_layout"
+        android:background="@color/gp_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_5"
+        android:paddingBottom="@dimen/padding_5">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="@dimen/padding_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/select_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/padding_10"
+            android:drawableRight="@mipmap/select"
+            android:gravity="center"
+            android:text="按箱型" />
+        <TextView
+            android:background="@color/white"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:id="@+id/select_sc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawablePadding="@dimen/padding_10"
+            android:drawableRight="@mipmap/select"
+            android:gravity="center"
+            android:text="按船公司" />
+    </LinearLayout>
+    </FrameLayout>
+
+    <ExpandableListView
+        android:id="@+id/activity_price_list_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/select_layout"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingRight="@dimen/margin_15"
+        android:paddingBottom="@dimen/margin_40"/>
+</RelativeLayout>

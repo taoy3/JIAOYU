@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include layout="@layout/title_layout" />
+    <ScrollView
+        android:layout_marginTop="@dimen/margin_60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/activity_price_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin_10">
+
+            <TextView
+                android:layout_width="@dimen/width_100"
+                android:layout_height="match_parent"
+                android:text="@string/start_port"
+                android:textSize="@dimen/text_20" />
+
+            <TextView
+                android:id="@+id/start_port"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:textSize="@dimen/text_20"
+                android:drawableRight="@mipmap/light_right"/>
+        </LinearLayout>
+
+        <TextView style="@style/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_marginBottom="@dimen/margin_10">
+
+            <TextView
+                android:layout_width="@dimen/width_100"
+                android:layout_height="match_parent"
+                android:text="@string/dest_port"
+                android:textSize="@dimen/text_20" />
+
+            <TextView
+                android:id="@+id/dest_port"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:textSize="@dimen/text_20"
+                android:drawableRight="@mipmap/light_right"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/line"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="@string/remark"
+            android:textSize="@dimen/text_20" />
+
+            <EditText
+                android:id="@+id/remark_edit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_148"
+                android:layout_margin="@dimen/margin_1"
+                android:background="@drawable/input_edit_frame"
+                android:padding="@dimen/padding_5"
+                android:gravity="top"
+                android:hint="@string/optional"
+                android:textColorHint="@color/grey" />
+            <com.wl.view.ChildGridView
+                android:id="@+id/price_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_20">
+                <TextView
+                    android:id="@+id/companyName"
+                    android:text="船公司："
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_20"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/st_port"
+                    android:text="截/开："
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_20"
+                    android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/cus_deatil_remark"
+            android:text="备注：--"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_20"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20"
+            android:text="@string/additional_details"
+            android:textSize="20sp" />
+        <com.taoy3.freight.view.MyGridView
+            android:layout_margin="@dimen/margin_10"
+            android:visibility="gone"
+            android:id="@+id/price_details_list"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/input_layout_frame"
+            android:divider="@color/gray_light"
+            android:dividerHeight="1dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_10" />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">智慧家园</string>
+    <string name="rec_more">More</string>
+    <string name="btn_msg">消息</string>
+    <string name="btn_dynamic">动态</string>
+    <string name="btn_teach">教学</string>
+    <string name="btn_me">班务</string>
+    <string name="title_activity_teach_plan">教学计划</string>
+    <string name="chioce_today">(x)</string>
+    <string name="chioce_yestoday">(x)</string>
+    <string name="chioce_calendar">(x)</string>
+    <string name="login">登录</string>
+    <string name="user_input">用户名/手机号</string>
+    <string name="pwd_input">请输入密码</string>
+    <string name="autologin">自动登录</string>
+    <string name="forgetPassword">忘记密码？</string>
+    <string name="gridv_atten">出勤</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="subject">学科</string>
+    <string name="term">期数</string>
+    <string name="teach_cycle">教学周期</string>
+    <string name="teach_plan_set">教学计划设定</string>
+    <string name="teach_progress">教学进度</string>
+    <string name="mof_plan">修改教学计划</string>
+    <string name="plan_detail">修改详情</string>
+
+    <string name="sunday">日</string>
+    <string name="monday">一</string>
+    <string name="thesday">二</string>
+    <string name="wednesday">三</string>
+    <string name="thursday">四</string>
+    <string name="friday">五</string>
+    <string name="saturday">六</string>
+    <string name="complete">已完成</string>
+    <string name="un_complete">未完成</string>
+    <string name="change_un_complete">还原为未教学？</string>
+    <string name="change_complete">已完成本单元教学？</string>
+    <string name="mof">修改</string>
+    <string name="more">更多</string>
+    <string name="today">今天</string>
+    <string name="ple_sel_date">请选择日期</string>
+    <string name="ple_sel_second_date">请选择第二个日期</string>
+    <string name="atten_class">班级</string>
+    <string name="atten">考勤管理</string>
+    <string name="no_data">no_data</string>
+    <string-array name="attenList">
+        <item>出勤</item>
+        <item>迟到</item>
+        <item>缺勤</item>
+        <item>请假</item>
+    </string-array>
+    <string name="health">健康管理</string>
+    <string name="all">全部</string>
+    <string name="del_plan">删除计划</string>
+    <string name="confirm_mof">确认修改</string>
+    <string name="teach_start">教学起始周</string>
+    <string name="guidance">课前指导</string>
+    <string name="course">课名</string>
+    <string name="material">资源素材</string>
+    <string name="onlineleran">在线进修</string>
+    <string-array name="healthList">
+        <item>健康</item>
+        <item>警示</item>
+        <item>提醒</item>
+    </string-array>
+    <string name="userinfo">个人信息</string>
+    <string name="downloadmanage">下载管理</string>
+
+    <!-- health_detail-->
+    <string name="setting">设置</string>
+    <string name="pickimage">更换头像</string>
+    <string name="oldPassword">请输入原密码</string>
+    <string name="newPassword">请输入新密码</string>
+    <string name="repeatPassword">请确认新密码</string>
+    <string name="authenticode">请输入验证码</string>
+    <string name="getauthenticode">获取验证码</string>
+    <string name="inputphone">请输入手机号</string>
+    <string name="bind">绑定</string>
+    <string name="fullname">姓名</string>
+    <string name="gender">性别</string>
+    <string name="chargeclass">任教班级</string>
+    <string name="post">岗位</string>
+    <string name="phonenumber">手机号码</string>
+    <string name="health_detail_head">健康详情</string>
+    <string name="health_detail_name">姓名</string>
+    <string name="health_detail_id">编号</string>
+    <string name="health_detail_gohome">带回</string>
+    <string name="health_detail_temperature">体温</string>
+    <string name="health_detail_redeye">红眼</string>
+    <string name="health_detail_diarrhea">腹泻</string>
+    <string name="health_detail_nail">指甲</string>
+    <string name="health_detail_sont">鼻涕</string>
+    <string name="health_detail_rash">皮疹</string>
+    <string name="health_detail_houyan">喉炎</string>
+    <string name="health_detail_cough">咳嗽</string>
+    <string name="health_detail_medicine">服药</string>
+    <string name="health_detail_takecare">重点观察</string>
+    <string name="qq">QQ</string>
+    <string name="email">电子邮箱</string>
+    <string name="hobby">兴趣爱好</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="inputjob">手动输入职位</string>
+    <string name="leave_manage">请假管理</string>
+    <string name="medicine_tip">带药提醒</string>
+    <string name="other_tip">其他嘱托</string>
+    <string name="parents_tip">家长嘱托</string>
+    <string name="date">日期</string>
+    <string name="state">状态</string>
+    <string name="un_affirm">未确认</string>
+    <string name="agree">同意</string>
+    <string name="refuse">拒绝</string>
+    <string name="detail">详情</string>
+
+</resources>

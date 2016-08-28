@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="@dimen/width_70">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="88dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/video"/>
+    <LinearLayout
+        android:layout_toRightOf="@+id/icon"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_15"
+        android:id="@+id/tvSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="逻辑数学 第一期 第一周"
+        android:textColor="@color/item_text2"/>
+
+    <TextView
+        android:paddingTop="@dimen/padding_5"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_alignLeft="@+id/tvSubject"
+        android:id="@+id/tvType"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_below="@+id/tvSubject"
+        android:textSize="14sp"
+        android:text="课名名名[课例讲解]"
+        android:textColor="@color/item_text1"/>
+    </LinearLayout>
+    <ImageView
+        android:src="@drawable/guidance_item_arrow"
+        android:layout_gravity="center_vertical"
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+</LinearLayout>

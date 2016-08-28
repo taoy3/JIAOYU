@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40"
+        android:background="@color/white">
+        <TextView
+            android:layout_gravity="center"
+            android:minWidth="0dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@null"/>
+
+        <TextView
+            android:id="@+id/month_pop"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:animationCache="true"
+            android:background="@null"
+            android:drawablePadding="@dimen/padding_10"
+            android:text="2016年1月"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/today"
+            android:layout_gravity="center"
+            android:minWidth="0dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:text="@string/today"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_14"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/underline_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#f0f0f0">
+
+        <TextView
+            style="@style/weekName"
+            android:text="日"
+            android:textColor="@color/tip_text"/>
+
+        <TextView
+            style="@style/weekName"
+            android:text="一"/>
+
+        <TextView
+            style="@style/weekName"
+            android:text="二"/>
+
+        <TextView
+            style="@style/weekName"
+            android:text="三"/>
+
+        <TextView
+            style="@style/weekName"
+            android:text="四"/>
+
+        <TextView
+            style="@style/weekName"
+            android:text="五"/>
+
+        <TextView
+            style="@style/weekName"
+            android:text="六"
+            android:textColor="@color/tip_text"/>
+    </LinearLayout>
+
+    <View
+        style="@style/underline_gray"/>
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        style="@style/underline_gray"/>
+
+    <LinearLayout
+        android:id="@+id/dialog_sel_rg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calendar_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_green"
+            android:gravity="center"
+            android:padding="@dimen/padding_10"
+            android:text="@string/cancel"
+            android:textColor="@color/normal_text"/>
+
+        <View
+            android:background="@color/underline_gray"
+            android:layout_width="1px"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/calendar_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_green"
+            android:gravity="center"
+            android:padding="@dimen/padding_10"
+            android:text="@string/confirm"
+            android:textColor="@color/normal_text"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <TextView
+        android:textSize="@dimen/text_25"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50"
+        android:textColor="@color/white"
+        android:text="@string/title_activity_lock_setup"
+        android:background="@color/pink"/>
+    <TextView
+        android:id="@+id/lock_tip"
+        android:layout_marginTop="@dimen/margin_70"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scale_design"
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_20"
+        android:gravity="center"/>
+    <com.wl.view.LockPatternView
+        android:id="@+id/lock_pattern"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

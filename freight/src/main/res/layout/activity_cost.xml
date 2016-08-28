@@ -1,0 +1,332 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_50"
+                android:padding="@dimen/padding_10">
+
+                <TextView
+                    android:layout_width="@dimen/width_80"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/ocean_" />
+                <TextView
+                    android:id="@+id/sea_cost_curr"
+                    android:layout_width="@dimen/width_80"
+                    android:layout_height="match_parent"
+                    android:text="@string/usd"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/padding_30"/>
+
+                <TextView
+                    android:id="@+id/cost_sea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:drawableRight="@mipmap/light_right"
+                    android:gravity="center"
+                    android:text="@string/pls_modify"
+                    android:textColor="@color/gray_light" />
+            </LinearLayout>
+
+            <TextView style="@style/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_50"
+                android:paddingLeft="@dimen/padding_10"
+                android:paddingRight="@dimen/padding_10">
+
+                <TextView
+                    android:layout_width="@dimen/width_80"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/trailer_cost" />
+                <FrameLayout
+                    android:layout_width="@dimen/width_80"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/padding_10">
+                    <Spinner
+                        android:id="@+id/trailer_cost_currencies"
+                        android:layout_width="@dimen/width_80"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/padding_10"/>
+                    <TextView
+                        android:visibility="gone"
+                        android:gravity="center"
+                        android:id="@+id/trailer_cost_curr"
+                        android:layout_width="@dimen/width_80"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/padding_30"/>
+                </FrameLayout>
+
+
+                <TextView
+                    android:id="@+id/cost_trailer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:drawableRight="@mipmap/light_right"
+                    android:gravity="center"
+                    android:text="@string/pls_modify"
+                    android:textColor="@color/gray_light" />
+            </LinearLayout>
+
+            <TextView style="@style/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_50"
+                android:paddingLeft="@dimen/padding_10"
+                android:paddingRight="@dimen/padding_10">
+
+                <TextView
+                    android:layout_width="@dimen/width_80"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/customs_cost" />
+                <FrameLayout
+                    android:layout_width="@dimen/width_80"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/padding_10">
+                    <Spinner
+                        android:paddingBottom="@dimen/padding_5"
+                        android:id="@+id/customs_cost_currencies"
+                        android:layout_width="@dimen/width_80"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/padding_10"/>
+                    <TextView
+                        android:visibility="gone"
+                        android:gravity="center"
+                        android:id="@+id/customs_cost_curr"
+                        android:layout_width="@dimen/width_80"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/padding_30"/>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/cost_customs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:drawableRight="@mipmap/light_right"
+                    android:gravity="center"
+                    android:text="@string/pls_modify"
+                    android:textColor="@color/gray_light" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_light">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:gravity="center_horizontal"
+                    android:text="@string/surcharges"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/box_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="＋"
+                    android:textColor="@color/white_smoke"
+                    android:textSize="@dimen/text_30"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <com.wl.view.ChildListView
+                android:id="@+id/cost_surcharges_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/input_layout_frame"
+                android:divider="@color/gray_light"
+                android:dividerHeight="1dp" />
+            <com.wl.view.MyGridView
+                android:layout_margin="@dimen/margin_10"
+                android:visibility="gone"
+                android:id="@+id/cost_surcharges_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_10"
+                android:paddingRight="@dimen/padding_10">
+
+                <TextView
+                    android:layout_width="@dimen/width_80"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/other_" />
+                <FrameLayout
+                    android:layout_width="@dimen/width_80"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/padding_10">
+                    <Spinner
+                        android:paddingBottom="@dimen/padding_5"
+                        android:id="@+id/other_cost_currencies"
+                        android:layout_width="@dimen/width_80"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/padding_10"/>
+                    <TextView
+                        android:visibility="gone"
+                        android:gravity="center"
+                        android:id="@+id/other_cost_curr"
+                        android:layout_width="@dimen/width_80"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/padding_30"/>
+                </FrameLayout>
+
+                <EditText
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:id="@+id/cost_other"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/input_edit_frame"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:maxLength="10"/>
+            </LinearLayout>
+
+            <TextView style="@style/line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_50">
+
+                <TextView
+                    android:id="@+id/cost_mark_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/height_50"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/padding_10"
+                    android:paddingRight="@dimen/padding_10"
+                    android:text="@string/mark"/>
+                <TextView
+                    android:id="@+id/cost_mark_tip"
+                    android:singleLine="true"
+                    android:layout_toRightOf="@+id/cost_mark_label"
+                    android:layout_toLeftOf="@+id/cost_mark"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/cost_mark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/height_50"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/edit"
+                    android:paddingRight="@dimen/padding_10"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/remark_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/remark_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_180"
+                    android:layout_margin="@dimen/margin_5"
+                    android:background="@drawable/input_edit_frame"
+                    android:gravity="top"
+                    android:hint="@string/pls_edit"
+                    android:padding="@dimen/padding_10"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/save_remark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:padding="@dimen/padding_10"
+                        android:text="@string/save"
+                        android:textColor="@color/red"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView style="@style/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_50"
+                android:padding="@dimen/padding_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/pay_method" />
+
+                <RadioGroup
+                    android:id="@+id/cost_pay_way"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/no" />
+                </RadioGroup>
+            </LinearLayout>
+            <TextView
+                android:background="@color/gray_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_10"
+                android:text="@string/total"
+                android:textColor="@color/white" />
+            <ListView
+                android:id="@+id/cost_list_total"
+                android:layout_gravity="right"
+                android:divider="@null"
+                android:layout_width="@dimen/width_120"
+                android:layout_height="@dimen/height_148"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

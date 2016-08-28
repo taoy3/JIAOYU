@@ -1,0 +1,27 @@
+<resources>
+    <string-array name="names">
+        <item>林丹</item>
+        <item>谌龙</item>
+        <item>李宗伟</item>
+        <item>朱婷</item>
+        <item>郎指导</item>
+        <item>马琳</item>
+        <item>福原爱</item>
+        <item>川岛芳子</item>
+        <item>李世民</item>
+        <item>马龙</item>
+        <item>马伊咪</item>
+        <item>王宝强</item>
+    </string-array>
+    <string-array name="age">
+        <item>32</item>
+        <item>43</item>
+        <item>23</item>
+        <item>13</item>
+        <item>34</item>
+    </string-array>
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+</resources>

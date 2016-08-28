@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wl.activity.CusManageActivity">
+
+    <include layout="@layout/title_layout" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_light">
+    <TextView
+        android:clickable="true"
+        android:id="@+id/custom_search"
+        android:layout_margin="@dimen/padding_10"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_height="@dimen/height_40"
+        android:background="@drawable/search_edit_shape"
+        android:drawableLeft="@mipmap/search_icon"
+        android:drawablePadding="@dimen/padding_20"/>
+    </FrameLayout>
+    <com.wl.view.IndexListView
+        android:id="@+id/custom_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

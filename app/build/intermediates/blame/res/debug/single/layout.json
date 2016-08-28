@@ -1,0 +1,650 @@
+[
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_medicine_tip.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_medicine_tip.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/fragment_download.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/fragment_download.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_detail_retry.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_detail_retry.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/guide.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/guide.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_account.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_account.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_contacts_search.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_contacts_search.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_teach_mod.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_teach_mod.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/notify.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/notify.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_sel.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_sel.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_setting.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/refresh_listview_footer.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/refresh_listview_footer.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/dialog_editlist.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/dialog_editlist.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_health_manage.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_health_manage.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/fm_msg.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/fm_msg.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_youku_dialog_password_interact.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_youku_dialog_password_interact.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_publish_dynamic_fm.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_publish_dynamic_fm.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_detail_play_end_page.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_detail_play_end_page.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/view_menulist.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/view_menulist.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_class_checkbox.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_class_checkbox.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/custom_headview.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/custom_headview.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_learndetail.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_learndetail.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_parents_tip.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_parents_tip.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/popup_online.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/popup_online.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_guidance_search.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_guidance_search.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/calendar_item.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/calendar_item.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/db_item_layout.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/db_item_layout.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_detail_bottom_play_control.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_detail_bottom_play_control.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/view_head_title.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/view_head_title.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/menulist_guidance.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/menulist_guidance.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_post_radio.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_post_radio.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_health_deail.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_health_deail.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/fm_teach.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/fm_teach.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/flipper.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/flipper.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_leave_manage.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_leave_manage.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_playerview_plugin_detail_play_interact.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_playerview_plugin_detail_play_interact.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/imgsitem.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/imgsitem.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_listview_guidance.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_listview_guidance.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/pop_list_item.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/pop_list_item.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/imgfileadapter.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/imgfileadapter.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_feedback.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_feedback.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/calendar.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/calendar.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/popup_guidance.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/popup_guidance.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/fragment_music.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/fragment_music.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_guidance_search.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_guidance_search.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_childinfo.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_childinfo.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_download_manager.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_download_manager.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_grid_reco.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_grid_reco.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_video.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_video.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_guidance_detail.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_guidance_detail.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/view_label.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/view_label.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/choose_item1.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/choose_item1.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_gridview_image.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_gridview_image.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_online_detail.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_online_detail.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_avatar_picking.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_avatar_picking.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_profile.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_growth_record.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_growth_record.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/add.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/add.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/loading_page_error.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/loading_page_error.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_picture.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_picture.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/loadingdialog.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/loadingdialog.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_sel.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_sel.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/choose_item2.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/choose_item2.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_feedback.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_feedback.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/fm_me.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/fm_me.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_plugin_detail_play_interact.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_plugin_detail_play_interact.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_detail_play_title.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_detail_play_title.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_tudou_encrypt_dialog.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_tudou_encrypt_dialog.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_subject_name.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_subject_name.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/pop_sel.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/pop_sel.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/toggle_button.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/toggle_button.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_list_recommend.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_list_recommend.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_guidance_detail_header.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_guidance_detail_header.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_resource_search.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_resource_search.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_onlinelearn.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_onlinelearn.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/fm_dynamic.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/fm_dynamic.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_player_view.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_player_view.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/layout_head.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/layout_head.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_online.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_online.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_reset_password.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_reset_password.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/searchview_layout.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/searchview_layout.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_teach_plan.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_teach_plan.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/loading_page_empty.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/loading_page_empty.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_userinfo.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_userinfo.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_listview_dynamic.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_listview_dynamic.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_player_ad_youku.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_player_ad_youku.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/layout_sel_group.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/layout_sel_group.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_material.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_material.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/popup_material.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/popup_material.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/dialog_list.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/dialog_list.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/db_activity_main.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/db_activity_main.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/guidance_menu_list.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/guidance_menu_list.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_detail_play_quality.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_detail_play_quality.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/photogrally.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/photogrally.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/base_fm.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/base_fm.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/dialog_sel_subject_state.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/dialog_sel_subject_state.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/refresh_listview_header.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/refresh_listview_header.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_guidance_detail.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_guidance_detail.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_player_container.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_player_container.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_medicine_tip_at.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_medicine_tip_at.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_detail_play_loading.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_detail_play_loading.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/content_teach_plan.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/content_teach_plan.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/popup_downloadmanager.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/popup_downloadmanager.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_modify_password.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_modify_password.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_leave_manage.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_leave_manage.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/dialog_gender.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/dialog_gender.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_online_learn.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_online_learn.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/imgfilelist.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/imgfilelist.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_health_detail.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_health_detail.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_attendance.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_attendance.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/calendar_gridview.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/calendar_gridview.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_teach_list.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_teach_list.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_teach_progress.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_teach_progress.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/loading_page_loading.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/loading_page_loading.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_face.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_face.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/lv_online_teach.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/lv_online_teach.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_other_tip_at.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_other_tip_at.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_teach_create.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_teach_create.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_gridview_atten.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_gridview_atten.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/yp_detail_loading_info_page.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/Jiaoyu/youkuPlayerOpenSDK/unspecified/res/layout/yp_detail_loading_info_page.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/top_player.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/top_player.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/activity_medicine_tip_detail.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/activity_medicine_tip_detail.xml"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/layout/item_music.xml",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/layout/item_music.xml"
+    }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/input_edit_frame">
+    <TextView
+        android:id="@+id/title"
+        android:background="@color/greenyellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加费用"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/margin_1"
+        android:gravity="center"
+        android:padding="@dimen/padding_10"/>
+
+    <com.wl.view.MulSelView
+        android:layout_below="@+id/title"
+        android:id="@+id/cost_type"
+        android:numColumns="3"
+        android:layout_margin="@dimen/margin_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/cost_type"
+        android:id="@+id/cost_confirm"
+        android:clickable="true"
+        android:text="@string/confirm"
+        android:padding="@dimen/padding_10"
+        android:layout_margin="@dimen/margin_10"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/background_large_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

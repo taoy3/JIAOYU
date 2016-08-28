@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cnst.wisdom.ui.activity.UserinfoActivity">
+
+    <include
+        layout="@layout/layout_head"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_56"
+                android:background="@drawable/button_selector_gray"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/padding_20"
+                    android:text="@string/fullname"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+                <EditText
+                    android:id="@+id/editText_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:singleLine="true"
+                    android:textSize="@dimen/text_14"/>
+            </LinearLayout>
+
+            <View style="@style/underline_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_56"
+                android:background="@drawable/button_selector_gray"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/padding_20"
+                    android:text="@string/gender"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+                <TextView
+                    android:id="@+id/textView_gender"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+            </LinearLayout>
+
+            <View style="@style/underline_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_56"
+                android:background="@drawable/button_selector_gray"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/padding_20"
+                    android:text="@string/chargeclass"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+                <TextView
+                    android:id="@+id/textView_class"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+            </LinearLayout>
+
+            <View style="@style/underline_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_56"
+                android:background="@drawable/button_selector_gray"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/padding_20"
+                    android:text="@string/post"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+                <TextView
+                    android:id="@+id/textView_post"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+            </LinearLayout>
+
+            <View style="@style/underline_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_56"
+                android:background="@drawable/button_selector_gray"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/padding_20"
+                    android:text="@string/phonenumber"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+                <EditText
+                    android:id="@+id/editText_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:inputType="phone"
+                    android:maxLength="64"
+                    android:singleLine="true"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+            </LinearLayout>
+
+            <View style="@style/underline_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_56"
+                android:background="@drawable/button_selector_gray"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/padding_20"
+                    android:text="@string/qq"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+                <EditText
+                    android:id="@+id/editText_qq"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:inputType="number"
+                    android:maxLength="16"
+                    android:singleLine="true"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+            </LinearLayout>
+
+            <View style="@style/underline_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_56"
+                android:background="@drawable/button_selector_gray"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/padding_20"
+                    android:text="@string/email"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+                <EditText
+                    android:id="@+id/editText_email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="64"
+                    android:singleLine="true"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+            </LinearLayout>
+
+            <View style="@style/underline_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_56"
+                android:background="@drawable/button_selector_gray"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/padding_20"
+                    android:text="@string/hobby"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+                <EditText
+                    android:id="@+id/editText_hobby"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:maxLength="32"
+                    android:singleLine="true"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14"/>
+
+            </LinearLayout>
+
+            <View style="@style/underline_gray"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

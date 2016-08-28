@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_rec_bg"
+    android:orientation="vertical"
+    tools:context="com.cnst.wisdom.ui.activity.ChildinfoActivity">
+
+    <include
+        layout="@layout/layout_head"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center">
+
+        <com.cnst.wisdom.ui.view.CircleImageView
+            android:id="@+id/imageView_userhead"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/applogo"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="1dp"
+            app:civ_fill_color="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/textView_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView_userhead"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/marging_8"
+            android:text="森森森"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_16"/>
+
+        <ImageView
+            android:id="@+id/imageView_gender"
+            android:layout_width="@dimen/width_10"
+            android:layout_height="@dimen/text_16"
+            android:layout_alignTop="@id/textView_username"
+            android:layout_marginLeft="@dimen/padding_5"
+            android:layout_toRightOf="@id/textView_username"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_female"/>
+
+        <TextView
+            android:id="@+id/textView_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_5"
+            android:text="3岁6个月9天"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_12"/>
+
+    </RelativeLayout>
+
+    <View style="@style/underline_gray"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_childinfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_childinfo"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="幼儿基本信息"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_childhobby"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_childhobby"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="幼儿喜欢特长"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+    <View
+        style="@style/underline_gray"
+        android:layout_marginTop="@dimen/margin_10"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_childprecaution"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_childprecaution"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="幼儿不良习惯及病理防范"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+    <View
+        style="@style/underline_gray"
+        android:layout_marginTop="@dimen/margin_10"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_childgrowthrecord"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_growthrecord"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="幼儿在园成长记录"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_liferecord"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="@dimen/width_plan_icon"
+            android:layout_height="@dimen/width_plan_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_20"
+            android:layout_marginRight="@dimen/padding_10"
+            android:src="@drawable/btn_liferecord"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="家庭生活记录"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/text_14"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View style="@style/underline_gray"/>
+
+</LinearLayout>

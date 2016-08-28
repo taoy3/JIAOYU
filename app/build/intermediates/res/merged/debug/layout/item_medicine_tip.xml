@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="@dimen/padding_10"
+    android:layout_height="@dimen/height_56">
+    <TextView
+        android:id="@+id/medicine_tip_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:30"
+        android:textColor="@color/normal_text"
+        android:layout_marginRight="@dimen/margin_10"/>
+    <TextView
+        android:text="小一班 林真心"
+        android:textColor="@color/normal_text"
+        android:layout_toRightOf="@id/medicine_tip_time"
+        android:id="@+id/medicine_tip_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="阿司匹林、退烧药"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:id="@+id/medicine_tip_text"
+        android:layout_alignLeft="@id/medicine_tip_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_toLeftOf="@+id/medicine_tip_due"
+        android:id="@+id/medicine_tip_times"
+        android:text="1包/次"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@id/medicine_tip_due"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"/>
+</RelativeLayout>

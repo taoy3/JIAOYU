@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MaterialSearch">
+
+    <com.cnst.wisdom.ui.widget.CustomSearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/type_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_view"
+        android:layout_margin="@dimen/margin_30"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ibtn_contacts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/icon_contacts"
+                android:src="@drawable/oval_mask_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ibtn_contacts"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:text="通讯录"
+                android:textColor="@color/item_text1"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ibtn_guidance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/icon_guidance"
+                android:src="@drawable/oval_mask_selector" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ibtn_guidance"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:text="@string/guidance"
+                android:textColor="@color/item_text1"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ibtn_material"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/icon_resource"
+                android:src="@drawable/oval_mask_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ibtn_material"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:text="@string/material"
+                android:textColor="@color/item_text1"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ibtn_onlinelearn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/icon_zx"
+                android:src="@drawable/oval_mask_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ibtn_onlinelearn"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:text="@string/onlineleran"
+                android:textColor="@color/item_text1"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/data_empty"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/search_view"
+        android:layout_margin="@dimen/margin_15"
+        android:gravity="center"
+        android:textColor="@color/tip_text"
+        android:textSize="14sp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="无匹配搜索结果"
+            android:textColor="@color/tip_text"
+            android:textSize="14sp" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_search"
+        android:layout_below="@+id/type_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/guidance_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:paddingLeft="@dimen/padding_15"
+                    android:paddingTop="@dimen/padding_15"
+                    android:text="@string/guidance"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14" />
+
+                <View style="@style/underline_gray" />
+
+                <com.cnst.wisdom.ui.widget.ScrollListView
+                    android:id="@+id/lv_guidance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="@color/no_color"
+                    android:divider="#dcdcdc"
+                    android:dividerHeight="1px" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/space_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_15"
+                android:layout_below="@+id/guidance_layout"
+                android:background="@color/onClick"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/material_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/space_1"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:paddingLeft="@dimen/padding_15"
+                    android:paddingTop="@dimen/padding_15"
+                    android:text="@string/material"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14" />
+
+                <View style="@style/underline_gray" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/space_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_15"
+                android:layout_below="@+id/material_layout"
+                android:background="@color/onClick"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/onlinelearn_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/space_2"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:paddingLeft="@dimen/padding_15"
+                    android:paddingTop="@dimen/padding_15"
+                    android:text="@string/onlineleran"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/text_14" />
+
+                <View style="@style/underline_gray" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

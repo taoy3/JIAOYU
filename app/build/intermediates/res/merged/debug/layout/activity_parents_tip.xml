@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cnst.wisdom.ui.activity.ParentsTip">
+    <include
+        layout="@layout/layout_head"/>
+    <LinearLayout
+        android:id="@+id/leave_manage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            style="@style/teach_plan_icon"
+            android:src="@mipmap/qingjia"/>
+
+        <TextView
+            style="@style/teach_plan_text"
+            android:gravity="center_vertical"
+            android:text="@string/leave_manage"/>
+        <TextView
+            android:id="@+id/leave_manage_tip"
+            android:visibility="visible"
+            android:text="1"
+            android:textSize="@dimen/text_9"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:background="@drawable/red_point"
+            android:layout_width="@dimen/margin_15"
+            android:layout_height="@dimen/margin_15" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_gravity="right|center_vertical"
+            style="@style/teach_plan_tarrow" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/onClick"
+        android:layout_height="@dimen/height_20"/>
+
+    <LinearLayout
+        android:id="@+id/medicine_tip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            style="@style/teach_plan_icon"
+            android:src="@mipmap/daiyao"/>
+
+        <TextView
+            style="@style/teach_plan_text"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/medicine_tip"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/onClick"
+        android:layout_height="@dimen/height_20"/>
+    <LinearLayout
+        android:id="@+id/other_tip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_56"
+        android:background="@drawable/button_selector_gray"
+        android:clickable="true">
+
+        <ImageView
+            style="@style/teach_plan_icon"
+            android:src="@mipmap/zhutuo"/>
+
+        <TextView
+            style="@style/teach_plan_text"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/other_tip"/>
+
+        <ImageView
+            style="@style/teach_plan_tarrow"/>
+    </LinearLayout>
+</LinearLayout>

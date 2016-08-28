@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_56"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_10">
+
+    <TextView
+        android:id="@+id/leave_manage_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1月3日"
+        android:textColor="@color/normal_text" />
+
+    <TextView
+        android:id="@+id/leave_manage_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_toRightOf="@id/leave_manage_date"
+        android:text="小一班 林真心" />
+
+    <TextView
+        android:gravity="bottom"
+        android:id="@+id/leave_manage_reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/leave_manage_name"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/leave_manage_name"
+        android:text="事由：身体不舒服，有点感冒发烧"
+        android:textColor="@color/tip_text" />
+
+    <TextView
+        android:id="@+id/leave_manage_state"
+        android:layout_width="@dimen/width_60"
+        android:layout_height="@dimen/height_30"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/complete"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/complete"
+        android:textColor="@color/confirm_text_selector"
+        android:textSize="@dimen/text_14" />
+</RelativeLayout>

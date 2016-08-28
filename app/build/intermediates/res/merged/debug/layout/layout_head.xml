@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cnst.wisdom.ui.view.TitleView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/headHeight"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"/>
