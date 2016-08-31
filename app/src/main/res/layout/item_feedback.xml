@@ -5,7 +5,7 @@
                 android:padding="10dp"
                 android:layout_height="wrap_content"
     >
-    <com.taoy3.jiaoyu.ui.view.CircleImageView
+    <com.cnst.wisdom.ui.view.CircleImageView
         android:id="@+id/iv_item"
         android:layout_gravity="center_vertical"
         android:layout_width="40dp"

@@ -5,10 +5,11 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <com.taoy3.jiaoyum.ui.view.RefreshListView
+    <com.cnst.wisdom.ui.view.RefreshListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:dividerHeight="1px"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
+    </com.cnst.wisdom.ui.view.RefreshListView>
 
 </LinearLayout>

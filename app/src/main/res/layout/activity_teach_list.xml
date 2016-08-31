@@ -124,7 +124,7 @@
             style="@style/underline_gray"
             android:layout_below="@+id/teach_sel_layout" />
 
-        <com.taoy3.jiaoyu.ui.view.RefreshListView
+        <com.cnst.wisdom.ui.view.RefreshListView
             android:id="@+id/teach_sel_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
