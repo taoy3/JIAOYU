@@ -110,7 +110,7 @@
                 android:text="相关素材"
                 android:textColor="@color/colorPrimary"/>
 
-            <com.taoy3.jiaoyu.ui.widget.ScrollListView
+            <com.cnst.wisdom.ui.widget.ScrollListView
                 android:id="@+id/related"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

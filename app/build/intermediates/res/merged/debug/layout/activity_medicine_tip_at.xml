@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:context="com.cnst.wisdom.ui.activity.MedicineTipAt">
     <include layout="@layout/layout_head"/>
-    <com.taoy3.jiaoyuui.view.RefreshListView
+    <com.cnst.wisdom.ui.view.RefreshListView
         android:id="@+id/medicine_tip_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
