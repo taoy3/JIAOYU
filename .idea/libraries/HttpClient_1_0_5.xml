@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="HttpClient-1.0.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jalasoft/HttpClient/1.0.5/c617f7186c98db52d4a9c04ef5dc0fd4d02f6df7/HttpClient-1.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jalasoft/HttpClient/1.0.5/8be25910a1663de0fb3b5c3bd7da551f03a4bb3c/HttpClient-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

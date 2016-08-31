@@ -33,7 +33,7 @@
             android:textColor="@color/list_rec_tv"/>
     </RelativeLayout>
 
-    <com.cnst.wisdom.ui.widget.InnerGridView
+    <com.taoy3.jiaoyu.ui.widget.InnerGridView
         android:id="@+id/ingv_recommend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

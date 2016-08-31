@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:context=".ui.activity.MaterialSearch">
 
-    <com.cnst.wisdom.ui.widget.CustomSearchView
+    <com.taoy3.jiaoyu.ui.widget.CustomSearchView
         android:id="@+id/search_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

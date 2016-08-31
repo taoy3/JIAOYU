@@ -163,7 +163,7 @@
             android:text="12：30"
             android:textColor="@color/normal_text" />
 
-        <com.cnst.wisdom.ui.view.SwitchButton
+        <com.taoy3.jiaoyu.ui.view.SwitchButton
             android:id="@+id/medicine_detail_state"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"

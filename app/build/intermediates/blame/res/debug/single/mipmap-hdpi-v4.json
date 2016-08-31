@@ -56,12 +56,12 @@
         "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/mipmap-hdpi/tab_today.png"
     },
     {
-        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/triangle06.png",
-        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/mipmap-hdpi/triangle06.png"
-    },
-    {
         "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_next.png",
         "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/mipmap-hdpi/ic_next.png"
+    },
+    {
+        "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/triangle06.png",
+        "source": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/src/main/res/mipmap-hdpi/triangle06.png"
     },
     {
         "merged": "/Users/taoy3/AndroidStudioProjects/code/Jiaoyu/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/user.png",

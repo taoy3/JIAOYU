@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.cnst.wisdom.ui.activity.Material">
+    android:orientation="vertical">
 
     <include
         layout="@layout/layout_head"/>
@@ -19,7 +18,7 @@
 
         <!-- tabs -->
 
-        <com.cnst.wisdom.ui.widget.PagerSlidingTabStrip
+        <com.taoy3.jiaoyu.ui.widget.PagerSlidingTabStrip
             android:id="@+id/material_tabs"
             android:layout_width="match_parent"
             android:layout_height="48dp" />

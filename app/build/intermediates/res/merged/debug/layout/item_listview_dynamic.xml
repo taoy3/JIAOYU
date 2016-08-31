@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.cnst.wisdom.ui.view.CircleImageView
+        <com.taoy3.jiaoyu.ui.view.CircleImageView
             android:id="@+id/imageView_userhead"
             android:layout_width="55dp"
             android:layout_height="55dp"

@@ -9,7 +9,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.cnst.wisdom"
+        applicationId "com.taoy3.jiaoyu"
         minSdkVersion 14
         targetSdkVersion 16
         versionCode 1

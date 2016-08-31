@@ -1,2 +1,2 @@
-//include ':app'
-include ':youkuPlayerOpenSDK', ':db', 'freight'
+include ':app'
+include ':youkuPlayerOpenSDK'

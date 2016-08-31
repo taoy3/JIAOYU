@@ -6,7 +6,7 @@
     <include
         layout="@layout/layout_head"/>
 
-    <com.cnst.wisdom.ui.widget.PagerSlidingTabStrip
+    <com.taoy3.jiaoyu.ui.widget.PagerSlidingTabStrip
         android:id="@+id/tabstrip_online"
         android:layout_width="match_parent"
         android:layout_height="48dp"

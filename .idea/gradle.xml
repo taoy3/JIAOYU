@@ -9,16 +9,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/db" />
-            <option value="$PROJECT_DIR$/freight" />
+            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/youkuPlayerOpenSDK" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/db" />
-            <option value="$PROJECT_DIR$/freight" />
+            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/youkuPlayerOpenSDK" />
           </set>
         </option>

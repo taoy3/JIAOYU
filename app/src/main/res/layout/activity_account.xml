@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.cnst.wisdom.ui.activity.AccountActivity">
+    tools:context="com.taoy3.jiaoyu.ui.activity.AccountActivity">
 
     <include
         layout="@layout/layout_head"/>
@@ -25,7 +25,7 @@
             android:layout_centerInParent="true"
             />
 
-        <com.cnst.wisdom.ui.view.CircleImageView
+        <com.taoy3.jiaoyu.ui.view.CircleImageView
             android:id="@+id/imageView_userhead"
             android:layout_width="70dp"
             android:layout_height="70dp"

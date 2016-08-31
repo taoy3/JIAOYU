@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cnst.wisdom.test" >
+    package="com.taoy3.jiaoyu.test" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -10,8 +10,8 @@
         android:name="com.android.test.runner.MultiDexTestRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.cnst.wisdom"
-        android:targetPackage="com.cnst.wisdom" />
+        android:label="Tests for com.taoy3.jiaoyu"
+        android:targetPackage="com.taoy3.jiaoyu" />
 
     <application>
         <uses-library android:name="android.test.runner" />
