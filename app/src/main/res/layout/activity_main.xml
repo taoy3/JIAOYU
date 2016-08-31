@@ -8,7 +8,7 @@
     <include
         layout="@layout/layout_head"/>
 
-    <com.taoy3.jiaoyu.ui.view.NoScrollViewPager
+    <com.cnst.wisdom.ui.view.NoScrollViewPager
         android:id="@+id/vp"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
