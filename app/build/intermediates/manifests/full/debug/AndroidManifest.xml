@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.taoy3.jiaoyu"
+    package="com.cnst.wisdom"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -33,14 +33,14 @@
     <uses-permission android:name="android.permission.GET_TASKS" />
 
     <application
-        android:name="com.taoy3.jiaoyu.base.BaseApplication"
+        android:name="com.cnst.wisdom.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.MainActivity"
+            android:name="com.cnst.wisdom.ui.activity.MainActivity"
             android:screenOrientation="portrait" />
 
         <!-- &lt;!&ndash; 渠道 &ndash;&gt; -->
@@ -49,37 +49,37 @@
         <!-- android:value="${UMENG_CHANNEL_VALUE}"/> -->
 
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.GuidanceDetailActivity"
+            android:name="com.cnst.wisdom.ui.activity.GuidanceDetailActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
-        <!-- <activity -->
-        <!-- android:name=".ui.activity.LearnDetail" -->
-        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
-        <!-- android:exported="true" -->
-        <!-- android:launchMode="singleTask" -->
-        <!-- android:screenOrientation="portrait" /> -->
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.OnlineLearn"
+            android:name="com.cnst.wisdom.ui.activity.LearnDetail"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.Material"
+            android:name="com.cnst.wisdom.ui.activity.OnlineLearn"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.PictureActivity"
+            android:name="com.cnst.wisdom.ui.activity.Material"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.Attendance"
+            android:name="com.cnst.wisdom.ui.activity.PictureActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.HealthManage"
+            android:name="com.cnst.wisdom.ui.activity.Attendance"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.HealthDetailActivity"
+            android:name="com.cnst.wisdom.ui.activity.HealthManage"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.LoginActivity"
+            android:name="com.cnst.wisdom.ui.activity.HealthDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cnst.wisdom.ui.activity.LoginActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -88,37 +88,30 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.LearnDetail"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="true"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.RegisterActivity"
+            android:name="com.cnst.wisdom.ui.activity.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.Feedback"
+            android:name="com.cnst.wisdom.ui.activity.Feedback"
             android:screenOrientation="portrait" />
 
         <!-- 教学计划相关界面 -->
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.TeachPlan"
+            android:name="com.cnst.wisdom.ui.activity.TeachPlan"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.TeachPlanProgress"
+            android:name="com.cnst.wisdom.ui.activity.TeachPlanProgress"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.TeachPlanModList"
+            android:name="com.cnst.wisdom.ui.activity.TeachPlanModList"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.TeachPlanCreate"
+            android:name="com.cnst.wisdom.ui.activity.TeachPlanCreate"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.TeachPlanModify"
+            android:name="com.cnst.wisdom.ui.activity.TeachPlanModify"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.DownloadManager"
+            android:name="com.cnst.wisdom.ui.activity.DownloadManager"
             android:screenOrientation="portrait" />
 
         <!-- 以下两个为下载时需要的添加的Service -->
@@ -147,43 +140,44 @@
             android:value="d6781bbf609fc8b9f255395546f25e40" />
 
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.Guidance"
+            android:name="com.cnst.wisdom.ui.activity.Guidance"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.MaterialSearch"
+            android:name="com.cnst.wisdom.ui.activity.MaterialSearch"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.ResetPasswordActivity"
+            android:name="com.cnst.wisdom.ui.activity.ResetPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.AccountActivity"
+            android:name="com.cnst.wisdom.ui.activity.AccountActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.SettingActivity"
+            android:name="com.cnst.wisdom.ui.activity.SettingActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.ModifyPasswordActivity"
+            android:name="com.cnst.wisdom.ui.activity.ModifyPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taoy3.jiaoyu.ui.activity.AvatarPickingActivity"
+            android:name="com.cnst.wisdom.ui.activity.AvatarPickingActivity"
             android:screenOrientation="portrait" />
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.UserinfoActivity" />
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.ParentsTip" />
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.LeaveManageAt" />
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.MedicineTipAt" />
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.OtherTipAt" />
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.MedicineTipDetailAt" />
+        <activity android:name="com.cnst.wisdom.ui.activity.UserinfoActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.ParentsTip" />
+        <activity android:name="com.cnst.wisdom.ui.activity.LeaveManageAt" />
+        <activity android:name="com.cnst.wisdom.ui.activity.MedicineTipAt" />
+        <activity android:name="com.cnst.wisdom.ui.activity.OtherTipAt" />
+        <activity android:name="com.cnst.wisdom.ui.activity.MedicineTipDetailAt" />
         android:screenOrientation="portrait" />
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.ProfileActivity" />
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.ChildinfoActivity" />
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.PublishDynamicFmActivity" />
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.ReplyParentsActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.ProfileActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.ChildinfoActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.PublishDynamicFmActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.ReplyParentsActivity" />
         android:screenOrientation="portrait"/>
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.GrowthRecordActivity" />
-        <activity android:name="com.taoy3.jiaoyu.logic.ImgsActivity" />
-        <activity android:name="com.taoy3.jiaoyu.logic.ImgFileListActivity" />
-        <activity android:name="com.taoy3.jiaoyu.base.BaseWebActivity" />
-        <activity android:name="com.taoy3.jiaoyu.ui.activity.SelActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.GrowthRecordActivity" />
+        <activity android:name="com.cnst.wisdom.logic.ImgsActivity" />
+        <activity android:name="com.cnst.wisdom.logic.ImgFileListActivity" />
+        <activity android:name="com.cnst.wisdom.base.BaseNetActivity" />
+        <activity android:name="com.cnst.wisdom.base.BaseWebActivity" />
+        <activity android:name="com.cnst.wisdom.ui.activity.SelActivity" />
     </application>
 
 </manifest>
